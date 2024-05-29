@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text Input Styles-->
+    <style name="TextInputLayout.Regular.Outline" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <!--        <item name="helperTextTextAppearance">@style/Text.Font.Only.12</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Font.Only.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Font.Only.14</item>-->
+    </style>
+
+    <style name="TextInputLayout.Regular.Outline.Dense" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <style name="TextInputLayout.Regular.Filled" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <!--        <item name="android:fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <style name="TextInputLayout.Regular.Filled.Dense" parent="Widget.Material3.TextInputLayout.FilledBox.Dense">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <!-- Text Input Outlined Exposed Dropdown Menu-->
+    <style name="TextInputLayout.Regular.Outline.ExposedDropdownMenu" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <!--        <item name="endIconMode">custom</item>-->
+                <item name="endIconDrawable">@drawable/ic_arrow_right</item>
+
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <style name="TextInputLayout.Regular.Filled.ExposedDropdownMenu" parent="Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <style name="TextInputLayout.Regular.Outline.Dense.ExposedDropdownMenu" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <style name="TextInputLayout.Regular.Filled.Dense.ExposedDropdownMenu" parent="Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+        <!--        <item name="hintTextAppearance">@style/Text.Regular.Black.14</item>-->
+        <!--        <item name="helperTextTextAppearance">@style/Text.Regular.Black.12</item>-->
+        <!--        <item name="placeholderTextAppearance">@style/Text.Regular.Black.14</item>-->
+    </style>
+
+    <!--Text Input Edit Text -->
+    <style name="TextInputEditText.Regular.Outline" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+    </style>
+
+    <style name="TextInputEditText.Regular.Outline.Dense" parent="Widget.Material3.TextInputEditText.OutlinedBox.Dense">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+    </style>
+
+    <style name="TextInputEditText.Regular.Filled" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+    </style>
+
+    <style name="TextInputEditText.Regular.Filled.Dense" parent="Widget.Material3.TextInputEditText.FilledBox.Dense">
+        <!--        <item name="fontFamily">@font/font_open_sans_regular</item>-->
+    </style>
+</resources>

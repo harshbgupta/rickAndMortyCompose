@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button.Filled.14" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Button.Filled.12" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="Button.Filled.12.No.Padding" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+    </style>
+
+    <style name="Button.Text.14" parent="Widget.Material3.Button.TextButton">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/md_theme_primary</item>
+    </style>
+
+    <style name="Button.Outline.14" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="android:textColor">@color/md_theme_primary</item>
+        <item name="strokeColor">@color/md_theme_primary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="Button.Outline.Filter.14" parent="Button.Outline.14">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="strokeColor">#C4C4C4</item>
+    </style>
+
+
+
+    <style name="Button.Outline.12" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="strokeColor">@color/md_theme_primary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="Button.Outline.12.No.Padding" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="strokeColor">@color/md_theme_primary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+    </style>
+
+    <style name="Button.Filled.Secondary.12" parent="Widget.Material3.Button">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="Button.Outline.Secondary.12" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="strokeColor">@color/md_theme_secondary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="Button.Outline.Icon.14" parent="Widget.Material3.Button.OutlinedButton.Icon">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="strokeColor">@color/md_theme_primary</item>
+        <item name="textAllCaps">false</item>
+        <item name="iconTint">@color/md_theme_primary</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="Button.Outline.Icon.Secondary.12" parent="Widget.Material3.Button.OutlinedButton.Icon">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="maxLines">1</item>
+        <item name="cornerRadius">@dimen/_25sdp</item>
+        <item name="elevation">@dimen/elevation_button</item>
+        <item name="strokeColor">@color/md_theme_secondary</item>
+        <item name="textAllCaps">false</item>
+        <item name="iconTint">@color/md_theme_secondary</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="FloatingActionButton.Ripple" parent="ShapeAppearanceOverlay.Material3.FloatingActionButton">
+<!--        <item name="rippleColor">@color/color_white_1000</item>-->
+        <item name="backgroundTint">@color/md_theme_fourth_primary</item>
+        <item name="elevation">@dimen/elevation_floating_button</item>
+        <item name="fabSize">normal</item>
+        <item name="tint">@color/color_white_1000</item>
+    </style>
+    <style name="FloatingActionButton.Extended.Ripple" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+<!--        <item name="rippleColor">@color/color_white_1000</item>-->
+        <item name="backgroundTint">@color/md_theme_fourth_primary</item>
+        <item name="elevation">@dimen/elevation_floating_button</item>
+        <item name="fabSize">normal</item>
+        <item name="iconTint">@color/color_white_1000</item>
+        <item name="android:textColor">@color/color_white_1000</item>
+        <item name="android:textAppearance">@style/Text.Title.Small</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlayExtended</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayExtended" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="Button.Icon.24dp" parent="">
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="Button.Text.Comment.Reply" parent="Widget.Material3.Button.TextButton">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="maxLines">1</item>
+        <item name="textAllCaps">false</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/edit_bos_text_hint_color</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+</resources>

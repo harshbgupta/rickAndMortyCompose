@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource">
+    <!--For Dark Theme-->
+    <!--Primary-->
+    <color name="md_theme_primary">#D0BCFF</color>
+    <color name="md_theme_inverse_primary">#6750A4</color>
+    <color name="md_theme_on_primary_container">#EADDFF</color>
+    <color name="md_theme_on_primary">#381E72</color>
+    <color name="md_theme_primary_container">#4F378B</color>
+
+    <!--Secondary-->
+    <color name="md_theme_secondary">#CCC2DC</color>
+    <color name="md_theme_on_secondary">#332D41</color>
+    <color name="md_theme_secondary_container">#4A4458</color>
+    <color name="md_theme_on_secondary_container">#E8DEF8</color>
+
+    <!--tertiary / Accent-->
+    <color name="md_theme_tertiary">#EFB8C8</color>
+    <color name="md_theme_on_tertiary">#492532</color>
+    <color name="md_theme_tertiary_container">#633B48</color>
+    <color name="md_theme_on_tertiary_container">#FFD8E4</color>
+
+    <!--Surface-->
+    <color name="md_theme_surface">#1C1B1F</color>
+    <color name="md_theme_on_surface">#E6E1E5</color>
+    <color name="md_theme_inverse_surface">#E6E1E5</color>
+    <color name="md_theme_inverse_on_surface">#313033</color>
+    <color name="md_theme_surface_variant">#49454F</color>
+    <color name="md_theme_on_surface_variant">#CAC4D0</color>
+    <color name="md_theme_surface_tint">#D0BCFF</color>
+    <color name="md_theme_surface_tint_color">#D0BCFF</color>
+
+    <!--Error-->
+    <color name="md_theme_error">#F2B8B5</color>
+    <color name="md_theme_on_error">#601410</color>
+    <color name="md_theme_error_container">#8C1D18</color>
+    <color name="md_theme_on_error_container">#F2B8B5</color>
+
+    <!--Background-->
+    <color name="md_theme_shadow">#000000</color>
+    <color name="md_theme_outline">#938F99</color>
+    <color name="md_theme_background">#1C1B1F</color>
+    <color name="md_theme_on_background">#E6E1E5</color>
+
+    <color name="dividerColor">#1E000000</color>
+
+    <!--other color-->
+    <color name="card_background_color">@color/color_grey_300</color>
+    <color name="color_black_overlay">#66000000</color>
+    <color name="color_trans_black_10">#90000000</color>
+    <color name="color_trans_black_60">#66000000</color>
+    <color name="color_trans_white_10">#90FFFFFF</color>
+    <color name="color_trans_white_60">#66FFFFFF</color>
+    <color name="color_transparent_100">#00FFFFFF</color>
+    <color name="color_status_bar_translucent">#4000</color>
+    <color name="color_transparent_dark_black">#aa000000</color>
+
+
+    <color name="text_color_black">@color/color_black_1000</color>
+    <color name="text_color_black_hint">@color/color_grey_600</color>
+    <color name="text_color_white">@color/color_white_1000</color>
+    <color name="text_color_white_hint">@color/color_grey_200</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#424242</color>
+    <color name="dot_dark_screen2">#424242</color>
+    <color name="dot_dark_screen3">#424242</color>
+    <color name="dot_dark_screen4">#424242</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#DE3A19</color>
+    <color name="dot_light_screen2">#DE3A19</color>
+    <color name="dot_light_screen3">#DE3A19</color>
+    <color name="dot_light_screen4">#DE3A19</color>
+
+    <array name="array_dot_active">
+        <item>@color/md_theme_primary</item>
+        <item>@color/md_theme_primary</item>
+        <item>@color/md_theme_primary</item>
+        <item>@color/md_theme_primary</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TopSheet.Modal" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="behavior_peekHeight">0dp</item>
+        <item name="behavior_hideable">false</item>
+
+    </style>
+
+</resources>

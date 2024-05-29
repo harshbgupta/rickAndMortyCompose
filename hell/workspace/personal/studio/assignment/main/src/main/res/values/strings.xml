@@ -1,0 +1,67 @@
+<resources>
+    <string name="argument_1" translatable="false">argument_1</string>
+
+    <string name="default_notification_channel_id">app_channel_165</string>
+
+    <!-- Login Fragment -->
+    <string name="valid_phone_warning">Please enter a valid phone number.</string>
+    <string name="enter_your_number">Enter Phone Number</string>
+    <string name="please_sign_in_to_your_account">Provide your mobile to get started</string>
+    <string name="you_ll_get_code_via_sms_on_the_same_number">You\'ll get code via SMS on the same number.</string>
+    <string name="enter_mobile">Enter Mobile</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="email_address_text">Email address</string>
+    <string name="terms_and_policy_text">By clicking next, I confirm and agree to the
+        <font fgcolor='#0000FF'><u><b>terms and policy</b></u></font></string>
+    <string name="terms_and_policy_post_text" />
+
+    <!-- OTP Fragment-->
+    <string name="please_enter_the_otp">Please enter the OTP.</string>
+    <string name="otp_sent">OTP Sent</string>
+    <string name="create_manager_wait">Creating User, Please wait for a moment</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="check_your_phone_for_the_otp">Sit back and relax while we verify your mobile number.</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="didn_t_get_otp">Didn\'t get OTP ?</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_has_been_send_to">OTP has been send to</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_your_cred">App Login</string>
+    <string name="cred_has_beed_sent_your_via_mail">Enter your credentials for secure login</string>
+    <string name="login">Login</string>
+
+    <string name="empowering_people_to_build_home">Empowering people to build home</string>
+    <string name="b_currentLanguage">current_lang</string>
+    <string name="b_user_number">userNumber</string>
+    <string name="error_message">Something went wrong, Please try again after some time</string>
+    <string name="something_went_wrong_please_contact_bank">You haven\'t assigned any role, Please contact the bank</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="more">More</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="change_language">Change Language</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="user_account_settings">Account Setting</string>
+    <string name="share_app">Share App</string>
+    <string name="warning">Warning</string>
+    <string name="logout_warning_text">This\'ll log out you from the application</string>
+    <string name="no">No</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="b_signup_number">signup_number</string>
+    <string name="b_subscriber_id">subscriber_id</string>
+    <string name="home">Home</string>
+    <string name="email_password_not_entered">Please enter email and password</string>
+    <string name="we_will_send_an_otp_for_verification">We will send an OTP for verification</string>
+    <string name="facing_issue_in_login_click_here">Having trouble logging in? <font fgcolor='#FF5722'><u><b>Get help</b></u></font></string>
+    <string name="edit">Edit</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="otp_time_out">OTP Time out</string>
+    <string name="answer">Answer</string>
+    <string name="decline">Decline</string>
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text.Font.Only.14" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Font.Only.12" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+    <!--Text View-->
+    <style name="Text.Regular.Black.14" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Bold.Black.14" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Regular.Black.12" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Bold.Black.12" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Regular.DarkGrey.14" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/text_color_black_hint</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Regular.DarkGrey.12" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/text_color_black_hint</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Regular.Highlighted.14" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/md_theme_secondary</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="Text.Regular.Highlighted.12" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/md_theme_secondary</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+
+    <!--Auto Complete Text View-->
+    <style name="AutoCompleteTextView.Regular.Outline" parent="Widget.Material3.AutoCompleteTextView.OutlinedBox">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <style name="AutoCompleteTextView.RegularOutline.Dense" parent="Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <style name="AutoCompleteTextView.Regular.Filled" parent="Widget.Material3.AutoCompleteTextView.FilledBox">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="AutoCompleteTextView.Regular.Filled.Dense" parent="Widget.Material3.AutoCompleteTextView.FilledBox.Dense">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!-- for helper text and small text-->
+    <style name="Text.Regular.12.BottomNavView.HelperText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!--
+    Making styles based on M3 labels
+    -->
+    <!--Display-->
+    <style name="Text.Display.Large" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Display.Medium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Display.Small" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!--Headline-->
+    <style name="Text.Headline.Large" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Headline.Medium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Headline.Small" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!--Title-->
+    <style name="Text.Title.Large" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Title.Medium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/open_sans_semibold</item>
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Title.Small" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/open_sans_semibold</item>
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!--Label-->
+    <style name="Text.Label.Large" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/open_sans_semibold</item>
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Label.Medium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/open_sans_semibold</item>
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Label.Small" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/open_sans_semibold</item>
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!--Body-->
+    <style name="Text.Body.Large" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Body.Medium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Body.Small" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <!--Bold-->
+    <style name="Text.Body.Small.Bold" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Label.Large.Bold" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+    <style name="Text.Label.Medium.Bold" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black_hint</item>
+    </style>
+
+</resources>

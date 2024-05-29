@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Icon.NonHighlighted" parent="Widget.Material3.Button.IconButton">
+<!--        <item name="tint">@color/md_theme_outline</item>-->
+    </style>
+
+    <style name="Icon.Highlighted" parent="Widget.Material3.Button.IconButton">
+<!--        <item name="tint">@color/color_red_200</item>-->
+    </style>
+</resources>

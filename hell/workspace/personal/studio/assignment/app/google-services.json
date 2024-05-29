@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7154283995",
+    "project_id": "archer-09",
+    "storage_bucket": "archer-09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7154283995:android:0d73e6c8b8656fa58b63fe",
+        "android_client_info": {
+          "package_name": "corp.hell.archer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbpVM4bwK9zE0R70zwlmufqyuKXg8KzIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

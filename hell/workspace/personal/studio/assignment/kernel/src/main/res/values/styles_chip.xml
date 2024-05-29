@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Chip.Regular.Choice.12" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="itemTextAppearance">@style/Chip.Text</item>
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+    </style>
+    <style name="Chip.Regular.Suggestion.Elevated.12" parent="Widget.Material3.Chip.Suggestion.Elevated">
+        <item name="itemTextAppearance">@style/Chip.Text</item>
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+    </style>
+
+    <style name="Chip.Suggestion.12" parent="Widget.Material3.Chip.Filter">
+        <item name="itemTextAppearance">@style/Chip.Text</item>
+        <item name="fontFamily">@font/font_open_sans_regular</item>
+        <item name="elevationOverlayColor">?attr/colorSurface</item>
+    </style>
+
+    <style name="Chip.Assist" parent="Widget.Material3.Chip.Assist.Elevated">
+        <item name="chipCornerRadius">@dimen/_20sdp</item>
+        <item name="android:textColor">@color/color_white_1000</item>
+        <item name="chipStrokeColor">@color/md_theme_tertiary</item>
+        <item name="chipBackgroundColor">@color/md_theme_tertiary</item>
+    </style>
+    <style name="Chip.Choice" parent="Widget.Material3.Chip.Assist.Elevated">
+        <item name="itemTextAppearance">@style/Chip.Text</item>
+        <item name="chipStrokeColor">@color/md_theme_tertiary</item>
+        <item name="chipBackgroundColor">@color/md_theme_tertiary</item>
+    </style>
+
+    <style name="Chip.Input" parent="Widget.Material3.Chip.Input.Elevated">
+        <item name="chipCornerRadius">@dimen/_20sdp</item>
+        <item name="chipStrokeColor">@color/md_theme_tertiary</item>
+        <item name="chipBackgroundColor">@color/md_theme_tertiary</item>
+        <item name="android:textColor">@color/color_white_1000</item>
+        <item name="closeIconTint">@color/color_white_1000</item>
+    </style>
+
+    <style name="Chip.Text" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textColor">@color/color_white_1000</item>
+        <!--        <item name="android:textColor">@color/text_color_black</item>-->
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+</resources>

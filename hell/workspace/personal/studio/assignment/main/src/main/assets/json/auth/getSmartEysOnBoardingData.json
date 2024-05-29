@@ -1,0 +1,32 @@
+{
+  "code": "200",
+  "message": "Success",
+  "data": {
+    "camera_allotted": 5,
+    "offer_info": "Save more than 50% with monthly duration",
+    "duration": [
+      {
+        "type": "months",
+        "value": 3,
+        "display_value": "3 months"
+      }
+    ],
+    "timings": [
+      {
+        "type": "night_time",
+        "display_title": "Night monitoring",
+        "display_type_info": "11pm to 5am"
+      },
+      {
+        "type": "full_day",
+        "display_title": "All day monitoring",
+        "display_type_info": "24 hours"
+      }
+    ]
+  },
+  "meta": {
+    "price": "Rs 12/day",
+    "feature_video_links": [],
+    "user_feedback_links": []
+  }
+}

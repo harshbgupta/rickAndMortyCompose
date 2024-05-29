@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardView.Filled" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardMaxElevation">@dimen/_16sdp</item>
+        <item name="android:checkable">true</item>
+    </style>
+
+    <style name="CardView.MoreOption.MenuItem" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardBackgroundColor">@color/dialog_bg_color</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="rippleColor">@color/more_options_dialog_item_ripple_color</item>
+        <item name="cardMaxElevation">0dp</item>
+    </style>
+
+    <style name="CardView.Filled.Checkable" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardMaxElevation">@dimen/_16sdp</item>
+        <item name="android:checkable">true</item>
+    </style>
+
+    <style name="CardView.Filled.Checkable.NoCorner" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardMaxElevation">@dimen/_16sdp</item>
+        <item name="android:checkable">true</item>
+    </style>
+    <style name="CardView.Filled.Checkable.NoCorner.NoBackground" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardMaxElevation">@dimen/_16sdp</item>
+        <item name="android:checkable">true</item>
+        <item name="cardForegroundColor">@color/card_color</item>
+    </style>
+
+    <style name="CardView.Filled.Multi.Choice.Item" parent="CardView.Filled.Checkable.NoCorner">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardForegroundColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="CardView.Elevated" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardMaxElevation">@dimen/_16sdp</item>
+    </style>
+
+    <style name="CardView.Elevated.Checkable" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardMaxElevation">@dimen/_16sdp</item>
+        <item name="android:checkable">true</item>
+    </style>
+
+    <style name="CardView.Outline" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+    </style>
+
+    <style name="CardView.Outline.Loan.Progress" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">@dimen/_3sdp</item>
+        <item name="strokeColor">@color/color_grey_200</item>
+        <item name="cardBackgroundColor">@color/color_grey_200</item>
+    </style>
+
+    <style name="CardView.Outline.Checkable" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="android:checkable">true</item>
+        <!--        <item name="cardForegroundColor">@drawable/selector_card_filled</item>-->
+        <!--<item name="strokeColor" state_checked="true">@color/md_theme_surface</item>
+        <item name="cardBackgroundColor" state_checked="true">@color/md_theme_surface</item>-->
+    </style>
+
+    <style name="CardView.Outline.Checkable.BSF.NoCorner" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">0dp</item>
+        <item name="android:checkable">true</item>
+        <item name="strokeColor">@color/color_white_1000</item>
+        <item name="cardBackgroundColor">@color/color_white_1000</item>
+    </style>
+
+    <style name="CardView.Elevated.Discussion.Comment" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/comment_card_background_bg</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+</resources>

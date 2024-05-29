@@ -1,0 +1,39 @@
+<resources>
+    <string name="rs" translatable="false">₹</string>
+    <string name="is_first_time" translatable="false">is_first_time</string>
+    <string name="b_auth_token" translatable="false">authToken</string>
+    <string name="b_userId" translatable="false">userId</string>
+    <string name="b_username" translatable="false">userName</string>
+    <string name="notification_channel_desc" translatable="false">Default notification channel</string>
+
+    <string name="facebook_app_id" translatable="false">743832723469691</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb743832723469691</string>
+    <string name="facebook_client_token" translatable="false">60455aec0af1feab6f8d3b4dfa761711</string>
+    <string name="app_flier_key" translatable="false">voHWVZGFkaGSAjnUbUeg5W</string>
+
+
+    <string name="desc_small" translatable="false">Some people even asked me whether they should leave their current job and pursue this full-time. I would not suggest this, start something new with your current job in these way you are not building a financial pressure on yourself.</string>
+    <string name="desc_big" translatable="false">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</string>
+
+    <string name="gps_off_warning">Location is off, Please turn it on</string>
+    <string name="open_setting">Open Setting</string>
+    <string name="not_now">Not now</string>
+    <string name="update">Update</string>
+    <string name="please_update_your_application">Please update your application</string>
+    <string name="update_app">Update App</string>
+
+    <string name="whats_not_installed_warninng">Probably whatsApp is not installed in your device.</string>
+
+    <string name="top_sheet_behavior" translatable="false">co.si.core.utils.TopSheetBehavior</string>
+    <string name="edit">Edit</string>
+    <string name="more">More</string>
+
+    <!--Crash pop Up Related-->
+    <string name="report_error">Report</string>
+    <string name="reporting">Reporting…</string>
+    <string name="reported">Reported</string>
+    <string name="restart">Relaunch App</string>
+    <string name="sorry_for_inconvenience_please_report_this_error_to_us">Unable to process your request. Please relaunch the app</string>
+    <string name="unexpected_error_occurred">Unexpected Error Occurred</string>
+
+</resources>

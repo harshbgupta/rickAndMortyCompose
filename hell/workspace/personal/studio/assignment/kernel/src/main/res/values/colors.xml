@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--For Light Theme-->
+    <color name="seed">#F16325</color>
+    <!--Primary-->
+    <color name="md_theme_primary">#F16325</color>
+    <color name="md_theme_inverse_primary">#FFB59A</color>
+    <color name="md_theme_on_primary_container">#000000</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#FFB59A</color>
+
+    <!---->
+    <color name="md_theme_fourth_primary">#0F66C3</color>
+    <color name="md_theme_fourth_primary_container">#E9F3FF</color>
+
+    <!--Secondary-->
+    <color name="md_theme_secondary">@color/md_theme_primary</color>
+    <color name="md_theme_on_secondary">@color/md_theme_on_primary</color>
+    <color name="md_theme_secondary_container">@color/md_theme_primary_container</color>
+    <color name="md_theme_on_secondary_container">@color/md_theme_on_primary_container</color>
+
+    <!--tertiary / Accent-->
+    <color name="md_theme_tertiary">#7CB342</color>
+    <color name="md_theme_on_tertiary">#FFFFFF</color>
+    <color name="md_theme_tertiary_container">#B8F47A</color>
+    <color name="md_theme_on_tertiary_container">#0E2000</color>
+
+    <!--Surface-->
+    <color name="md_theme_surface">#FFFBFF</color>
+    <color name="md_theme_on_surface">#201A18</color>
+    <color name="md_theme_inverse_surface">#362F2C</color>
+    <color name="md_theme_inverse_on_surface">#FBEEEA</color>
+    <color name="md_theme_surface_variant">#FFFBFF</color>
+    <color name="md_theme_on_surface_variant">#53433E</color>
+    <color name="md_theme_surface_tint">#F16325</color>
+    <color name="md_theme_surface_tint_color">#F16325</color>
+
+    <!--Error-->
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
+    <color name="md_theme_error_container">#FFDAD6</color>
+    <color name="md_theme_on_error_container">#410002</color>
+
+    <!--Background-->
+    <color name="md_theme_shadow">#000000</color>
+    <color name="md_theme_outline">#BDBDBD</color>
+    <color name="md_theme_background">#FFFBFF</color>
+    <color name="md_theme_on_background">#201A18</color>
+
+    <color name="dividerColor">#1E000000</color>
+    <color name="navBackgroundColor">#ffffff</color>
+
+    <!--other color-->
+    <color name="card_background_color">@color/color_grey_300</color>
+    <color name="color_black_overlay">#66000000</color>
+    <color name="color_trans_black_10">#90000000</color>
+    <color name="color_trans_black_60">#66000000</color>
+    <color name="color_trans_white_10">#90FFFFFF</color>
+    <color name="color_trans_white_60">#66FFFFFF</color>
+    <color name="color_transparent_100">#00FFFFFF</color>
+    <color name="color_status_bar_translucent">#4000</color>
+    <color name="color_transparent_dark_black">#aa000000</color>
+
+
+    <color name="text_color_black">@color/color_black_1000</color>
+    <color name="text_color_black_hint">@color/color_grey_600</color>
+    <color name="text_color_white">@color/color_white_1000</color>
+    <color name="text_color_white_hint">@color/color_grey_200</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#424242</color>
+    <color name="dot_dark_screen2">#424242</color>
+    <color name="dot_dark_screen3">#424242</color>
+    <color name="dot_dark_screen4">#424242</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#DE3A19</color>
+    <color name="dot_light_screen2">#DE3A19</color>
+    <color name="dot_light_screen3">#DE3A19</color>
+    <color name="dot_light_screen4">#DE3A19</color>
+
+    <array name="array_dot_active">
+        <item>@color/md_theme_primary</item>
+        <item>@color/md_theme_primary</item>
+        <item>@color/md_theme_primary</item>
+        <item>@color/md_theme_primary</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!--TODO - All these individual colors to be defined accordingly in night theme -->
+    <color name="discussions_page_surface_color">#E5E5E5</color>
+    <color name="dialog_bg_color">#FFFFFF</color>
+    <color name="edit_bos_text_hint_color">#6D6D6D</color>
+    <color name="dialog_negative_button_text_color">#2D2D2D</color>
+    <color name="dialog_positive_button_text_color">@color/md_theme_primary</color>
+    <color name="more_options_dialog_item_ripple_color">@color/md_theme_inverse_primary</color>
+    <color name="comment_card_background_bg">#F2F2F2</color>
+    <!-- This has been referred from removed video player library, this has to be further corrected-->
+    <color name="gray">#A3A2A2</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_activity_disabled">#5E5E5E</color>
+    <color name="grayDark">#3A3939</color>
+    <color name="zone_filter_selected_bg">#E9F3FF</color>
+    <color name="zone_filter_disabled_bg">#F3F3F3</color>
+    <color name="zone_filter_disabled_text">#7D7D7D</color>
+
+
+</resources>

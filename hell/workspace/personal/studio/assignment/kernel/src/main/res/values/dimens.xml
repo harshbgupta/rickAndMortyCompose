@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- standard sizes -->
+    <dimen name="size_floating_button">@dimen/_56sdp</dimen>
+    <dimen name="size_floating_sub_button">@dimen/_40sdp</dimen>
+    <dimen name="size_nav_offset">@dimen/_minus16sdp</dimen>
+    <dimen name="side_margin">@dimen/_15sdp</dimen>
+
+    <!-- standard elevation-->
+    <dimen name="elevation_floating_button">@dimen/_12sdp</dimen>
+    <dimen name="elevation_floating_button_sub">@dimen/_9sdp</dimen>
+    <dimen name="elevation_switch">@dimen/_1sdp</dimen>
+    <dimen name="elevation_toolbar">@dimen/_4sdp</dimen>
+    <dimen name="elevation_snack_bar">@dimen/_6sdp</dimen>
+    <dimen name="elevation_card_view">@dimen/_8sdp</dimen>
+    <dimen name="elevation_button">@dimen/_8sdp</dimen>
+    <dimen name="elevation_nav_drawer">@dimen/_16sdp</dimen>
+    <dimen name="elevation_dialog_picker">@dimen/_24sdp</dimen>
+
+    <array name="initial_range_slider_values">
+        <item>20.0</item>
+        <item>80.0</item>
+    </array>
+</resources>

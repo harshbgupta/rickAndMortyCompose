@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Bottom Nav View-->
+    <style name="BottomNavigation.12" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/Text.Regular.12.BottomNavView</item>
+        <item name="itemTextAppearanceInactive">@style/Text.Regular.12.BottomNavView</item>
+<!--        <item name="itemIconTint">@color/md_theme_primary</item>-->
+    </style>
+
+    <style name="Text.Regular.12.BottomNavView" parent="Text.Label.Small">
+        <item name="android:fontFamily">@font/font_open_sans_regular</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="BottomNavigation.customized" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/navBackgroundColor</item>
+        <item name="background">@color/navBackgroundColor</item>
+        <item name="indicatorColor">@color/color_white_1000</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemIconTint">@color/nav_color</item>
+        <item name="itemTextColor">@color/nav_color</item>
+        <item name="itemPaddingTop">6dp</item>
+        <item name="itemPaddingBottom">10dp</item>
+        <item name="elevationOverlayAccentColor">@color/gray</item>
+        <item name="itemTextAppearanceActive">@style/Text.Regular.12.BottomNavView</item>
+        <item name="itemTextAppearanceInactive">@style/Text.Regular.12.BottomNavView</item>
+        <!--        <item name="itemIconTint">@color/md_theme_primary</item>-->
+    </style>
+</resources>

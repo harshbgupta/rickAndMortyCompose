@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Harsh Gupta on 27.02.2023
+  ~ Copyright (c) 2022 . All rights reserved.
+  ~ Last modified 27.02.2023
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/ic_crash" />
+
+        <TextView
+            style="@style/Text.Body.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/side_margin"
+            android:text="@string/unexpected_error_occurred"
+            android:textColor="#000"
+            android:textSize="@dimen/_14ssp" />
+
+        <TextView
+            style="@style/Text.Body.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/side_margin"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/side_margin"
+            android:alpha=".7"
+            android:gravity="center"
+            android:text="@string/sorry_for_inconvenience_please_report_this_error_to_us"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            style="@style/Button.Filled.12"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/side_margin"
+            android:gravity="start|center"
+            android:text="@string/restart"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:id="@+id/llReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvReport"
+                style="@style/Text.Body.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/report_error" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/_minus3sdp"
+                android:background="#000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
