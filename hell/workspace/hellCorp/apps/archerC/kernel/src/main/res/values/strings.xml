@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_setting">Open Settings</string>
+    <string name="gps_off_warning">GPS is off, please turn it on.</string>
+</resources>
