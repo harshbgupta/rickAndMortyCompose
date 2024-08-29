@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.muhammedesadcomert.rickandmorty'
+    namespace 'com.hell.rickandmorty'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.muhammedesadcomert.rickandmorty"
+        applicationId "com.hell.rickandmorty"
         minSdk 21
         targetSdk 34
         versionCode 1
